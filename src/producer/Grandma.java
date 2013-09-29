@@ -7,6 +7,9 @@ public class Grandma implements Producer {
 	private static double baseCPS = 0.5, baseCost = 100;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,0.3,"Forwards from grandma"),
+                new Upgrade(3,0.02,"One mind"),
+                new Upgrade(3,0.02,"Communal brainsweep"),
+                new Upgrade(4,0.05,"Elder Pact"),
 		new Upgrade(1,2,"Steel-plated rolling pins"),
 		new Upgrade(1,2,"Lubricated dentures"),
 		new Upgrade(1,2,"Prune Juice"),
@@ -17,7 +20,9 @@ public class Grandma implements Producer {
 		new Upgrade(1,2,"Transmuted grandmas"),
 		new Upgrade(1,2,"Altered grandmas"),
 		new Upgrade(1,2,"Grandmas' grandmas"),
-		new Upgrade(1,2,"Antigrandmas")
+		new Upgrade(1,2,"Antigrandmas"),
+                new Upgrade(1,4,"Bingo centre/Research facility"),
+                new Upgrade(1,2,"Ritual rolling pins")
 	};
 	
 	@Override

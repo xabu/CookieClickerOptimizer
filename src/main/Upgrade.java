@@ -22,6 +22,7 @@ public class Upgrade {
 		name = s;
 	}
 	public double alterCPS(double cps){
+            if(have){
 		switch(type){
 		case 0:
 			return cps+magnitude;
@@ -40,6 +41,8 @@ public class Upgrade {
 		default:
 			return cps;
 		}
+            } else
+                return cps;
 	}
 	public boolean getOwned(){
 		return have;
