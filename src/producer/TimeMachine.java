@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class TimeMachine implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 98765, baseCost = 123456789;
+	private static final double baseCPS = 98765, baseCost = 123456789;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,9876,"Flux capacitors"),
 		new Upgrade(1,2,"Time Paradox resolver"),

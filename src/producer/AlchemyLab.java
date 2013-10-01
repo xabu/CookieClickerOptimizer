@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class AlchemyLab implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 400, baseCost = 200000;
+	private static final double baseCPS = 400, baseCost = 200000;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,100,"Antimony"),
 		new Upgrade(1,2,"Essence of dough"),

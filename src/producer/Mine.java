@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Mine implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 40, baseCost = 10000;
+	private static final double baseCPS = 40, baseCost = 10000;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,10,"Sugar gas"),
 		new Upgrade(1,2,"Megadrill"),

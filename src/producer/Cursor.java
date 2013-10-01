@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Cursor implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 0.1, baseCost = 15;
+	private static final double baseCPS = 0.1, baseCost = 15;
 	private static Upgrade[] upgrades = 
 		{new Upgrade(0,1, "Reinforced index finger"),
 		new Upgrade(2,0.1,"Thousand fingers"),

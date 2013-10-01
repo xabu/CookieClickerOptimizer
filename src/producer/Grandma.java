@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Grandma implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 0.5, baseCost = 100;
+	private static final double baseCPS = 0.5, baseCost = 100;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,0.3,"Forwards from grandma"),
                 new Upgrade(3,0.02,"One mind"),

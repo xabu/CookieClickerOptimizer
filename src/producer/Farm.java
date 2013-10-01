@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Farm implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 2, baseCost = 500;
+	private static final double baseCPS = 2, baseCost = 500;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,0.5,"Cheap hoes"),
 		new Upgrade(1,2,"Fertilizer"),

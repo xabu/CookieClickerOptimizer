@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Shipment implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 100, baseCost = 40000;
+	private static final double baseCPS = 100, baseCost = 40000;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,30,"Vanilla nebulae"),
 		new Upgrade(1,2,"Wormholes"),

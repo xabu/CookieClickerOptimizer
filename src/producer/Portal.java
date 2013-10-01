@@ -4,7 +4,7 @@ import main.Upgrade;
 
 public class Portal implements Producer {
 	private static int count = 0;
-	private static double baseCPS = 6666, baseCost = 1666666;
+	private static final double baseCPS = 6666, baseCost = 1666666;
 	private static Upgrade[] upgrades = {
 		new Upgrade(0,1666,"Ancient tablet"),
 		new Upgrade(1,2,"Insane oatling workers"),
