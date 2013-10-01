@@ -1,7 +1,4 @@
-package main;
-
-
-import producer.*;
+package producer;
 
 public class Upgrade {
 	private boolean have = false;

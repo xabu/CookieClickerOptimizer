@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class TimeMachine implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 98765, baseCost = 123456789;

@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class Mine implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 40, baseCost = 10000;

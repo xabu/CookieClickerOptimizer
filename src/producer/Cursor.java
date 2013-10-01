@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class Cursor implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 0.1, baseCost = 15;

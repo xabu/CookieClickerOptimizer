@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class Grandma implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 0.5, baseCost = 100;

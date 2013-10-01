@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class Portal implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 6666, baseCost = 1666666;

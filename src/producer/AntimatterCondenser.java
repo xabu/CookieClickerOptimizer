@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class AntimatterCondenser implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 999999, baseCost = 3999999999.0;

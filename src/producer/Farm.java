@@ -1,7 +1,5 @@
 package producer;
 
-import main.Upgrade;
-
 public class Farm implements Producer {
 	private static int count = 0;
 	private static final double baseCPS = 2, baseCost = 500;
